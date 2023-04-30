@@ -1,0 +1,74 @@
+/* manrope-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./assets/fonts/manrope-v13-latin-regular.woff2') format('woff2'), 
+         url('./assets/fonts/manrope-v13-latin-regular.woff') format('woff'); 
+  }
+  /* manrope-500 - latin */
+  @font-face {
+    font-display: swap; 
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    src: url('./assets/fonts/manrope-v13-latin-500.woff2') format('woff2'), 
+         url('./assets/fonts/manrope-v13-latin-500.woff') format('woff'); 
+  }
+  /* manrope-600 - latin */
+  @font-face {
+    font-display: swap; 
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    src: url('./assets/fonts/manrope-v13-latin-600.woff2') format('woff2'), 
+         url('./assets/fonts/manrope-v13-latin-600.woff') format('woff'); 
+  }
+  /* manrope-700 - latin */
+  @font-face {
+    font-display: swap; 
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./assets/fonts/manrope-v13-latin-700.woff2') format('woff2'), 
+         url('./assets/fonts/manrope-v13-latin-700.woff') format('woff'); 
+  }
+  /* manrope-800 - latin */
+  @font-face {
+    font-display: swap; 
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    src: url('./assets/fonts/manrope-v13-latin-800.woff2') format('woff2'), 
+         url('./assets/fonts/manrope-v13-latin-800.woff') format('woff'); 
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul, li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  :root {
+    --rpimary-darkgrey-color: #f4f5f5;
+    --primary-white-color: #fff
+  }
