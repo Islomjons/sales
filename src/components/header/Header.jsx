@@ -3,21 +3,7 @@ import "./Header.scss"
 
 const Header = () => {
   return (
-    <div className="header">
-      <h1>salom</h1>
-
-      <h1>salom</h1>
-
-      <h1>salom</h1>
-      <h1>salom</h1>
-
-      <h1>salom</h1>
-
-      <h1>salom</h1>
-
-      <h1>salom</h1>
-      <h1>salom</h1>
-    </div>
+    <div className="header"></div>
   )
 }
 
